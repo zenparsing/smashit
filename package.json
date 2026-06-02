@@ -4,8 +4,9 @@
   "version": "0.1.0",
   "license": "MIT",
   "bin": {
-    "smashit": "./smashit.js"
+    "smashit": "./smashit-cli.js"
   },
+  "main": "./smashit.js",
   "dependencies": {
     "@rollup/plugin-commonjs": "^29.0.2",
     "@rollup/plugin-node-resolve": "^16.0.3",
