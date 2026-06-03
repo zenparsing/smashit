@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "bin": {
-    "smashit": "./smashit-cli.js"
+    "smashit": "smashit-cli.js"
   },
   "main": "./smashit.js",
   "dependencies": {
