@@ -13,7 +13,7 @@ if (!output) {
   throw new Error('Missing output path');
 }
 
-smashit(
-  Path.resolve(input),
-  Path.resolve(output)
-).catch(console.error);
+smashit({
+  input: Path.resolve(input),
+  output: Path.resolve(output),
+}).catch(console.error);

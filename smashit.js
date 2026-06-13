@@ -5,7 +5,9 @@ import swc from '@rollup/plugin-swc';
 
 let args = process.argv.slice(2);
 
-export async function smashit(input, output) {
+export async function smashit(opts) {
+  let { input, output } = opts;
+
   let bundle = await rollup({
     input,
     plugins: [
